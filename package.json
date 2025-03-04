@@ -7,10 +7,13 @@
   "author": "SavioSReis <hjd44.sa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "npx nodemon src/index.js"
   },
   "dependencies": {
     "apollo-server": "^3.13.0",
     "graphql": "^16.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
