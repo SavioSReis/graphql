@@ -7,7 +7,7 @@
   "author": "SavioSReis <hjd44.sa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "npx nodemon src/index.js"
+    "start": "npx nodemon --exec babeç-node src/index.js"
   },
   "dependencies": {
     "@babel/cli": "^7.26.4",
