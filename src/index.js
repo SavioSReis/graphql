@@ -19,7 +19,7 @@ const typeDefs = gql`
 
     type Query {
         hello: String
-        users: [User!]!
+        getUsers: [User!]!
     }
 `;
 
